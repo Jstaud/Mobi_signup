@@ -87,13 +87,14 @@ body {
   height: 42px;
 }
 #hero-container .well {
-  border-radius: 20px;
-  border: 1px solid #ffffff;
+
+  border-radius: 0px;
+  border: 0px solid #ffffff;
   margin-top: 20px;
-  background: #12679b url(../images/source.png) repeat 0px 0px;
+  background: /*#12679b*/ url(../images/Mobi-logo.png) repeat 0px 0px;
   background-size: cover;
-  height: 214px;
-  width: 214px;
+  height: 75px;
+  width: 225px;
 }
 .container-fluid .well.well-1 {
   border-radius: 10px;
