@@ -143,4 +143,5 @@ body {
   text-align: center;
   color: #ffffff;
   margin-top: 0px;
+  resize: none;
 }
