@@ -98,7 +98,8 @@ body {
 }
 .container-fluid .well.well-1 {
   border-radius: 10px;
-  height: 505px;
+  /*height: 505px;*/
+  height: 400px;
   width: 280px;
 }
 .container-fluid .well.well-1 .heading {
