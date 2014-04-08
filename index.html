@@ -18,6 +18,19 @@
     <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script>
+        var updateLayout = function() {
+            if (window.innerWidth != currentWidth) {
+                currentWidth = window.innerWidth;
+                var orient = (currentWidth == 320) ? "profile" : "landscape";
+                document.body.setAttribute("orient", orient);
+                window.scrollTo(0, 1);
+            }
+        };
+
+        iPhone.DomLoad(updateLayout);
+        setInterval(updateLayout, 500);
+    </script>
     <link rel="apple-touch-icon-precomposed" href="images/Mobi_M.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/Mobi_M.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/Mobi_M.png">
